@@ -1,0 +1,52 @@
+# --- Python / Flask ---
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+instance/
+.env
+.env.local
+*.log
+*.pkl
+*.h5
+.vscode/
+
+# Flask cache
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+
+# Ignore virtual environment
+venv/
+ENV/
+env/
+
+# --- Node / React ---
+node_modules/
+build/
+dist/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build
+client/build/
+
+# Sensitive files
+client/.env
+server/.env
+
+# --- IDE and OS files ---
+*.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.sw?
+Thumbs.db
+.DS_Store
